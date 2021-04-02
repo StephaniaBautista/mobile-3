@@ -12,8 +12,13 @@ body {
 }
 p {
     color: $negro;
-    font-size: 2rem;
+    font-size: 1.5rem;
+    font-weight: $bold;
     margin: 0;
+    line-height: 2rem;
+}
+span{
+    color: $rojo;
 }
 .contenedor {
     width: 95%;

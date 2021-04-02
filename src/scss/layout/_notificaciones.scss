@@ -1,0 +1,38 @@
+.contenedor-notificaciones{
+    margin: 1rem 3rem;
+    .notificacion{
+        margin-bottom: $separacion / 2;
+        padding: 1rem;
+        border-bottom: 1px solid $gris;
+    }
+    .contenedor-notificacion{
+        display: flex;
+        .contenedor-imagen{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-right: 2rem;
+            .imagen{
+                width: $separacion;
+                height: $separacion;
+                border-radius: 50%;
+                background-image: url(../../../build/img/definicion-de-persona-min.jpg);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+            .imagen-p{
+                width: $separacion;
+                height: $separacion;
+                border-radius: 50%;
+                background-image: url(../../../build/img/kisspng-package-delivery-computer-icons-parcel-courier-free-svg-packages-5ab11fd8987ad4.2157841715215574646246.png);
+                background-position: center;
+                background-size: cover;
+                background-repeat: no-repeat;
+            }
+        }
+        .fecha{
+            color:  $grisOscuro;
+        }
+    }
+}
